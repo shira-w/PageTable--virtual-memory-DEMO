@@ -3,11 +3,11 @@ Demo of paging. attitude of OS as so to map VPN(virtual page address)  to PPN(ph
 
 
 The goal in this assignment is to implement simulated OS code that handles a multi-level (trie-based)
-page table. You will implement two functions. The rst function creates/destroys virtual memory
+page table. You will implement two functions. The  rst function creates/destroys virtual memory
 mappings in a page table. The second function checks if an address is mapped in a page table. (The
-second function is needed if the OS wants to gure out which physical address a process virtual
+second function is needed if the OS wants to  gure out which physical address a process virtual
 address maps to.)
-Your code will be a simulation because it will run in a normal process. We provide two les,
+Your code will be a simulation because it will run in a normal process. We provide two files,
 os.c and os.h, which contain helper functions that simulate some OS functionality that your code
 will need to call. For your convenience, there's also a main() function demonstrating usage of the
 code. However, the provided main() only exercises your code in trivial ways. We recommend that
